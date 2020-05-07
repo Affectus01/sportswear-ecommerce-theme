@@ -11676,12 +11676,16 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.row {
+  margin: 0;
+}
+
 .index-header {
   background-image: url("./assets/images/1.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: bottom center;
-  height: 600px;
+  height: 615px;
 }
 
 .header-logo-container {
