@@ -4084,6 +4084,8 @@ input[type=button].btn-block {
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  font-famiy: zuume-extrabold-italic;
+  letter-spacing: 4px;
 }
 .navbar .container,
 .navbar .container-fluid,
