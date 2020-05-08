@@ -126,6 +126,7 @@ $rfs-breakpoint-unit-cache: unit($rfs-breakpoint);
     @if $rfs-fluid == null {
       // Only render static font-size if no fluid font-size is available
       font-size: $rfs-static;
+      font-family: zuume-light-italic;
     }
     @else {
       $mq-value: null;
