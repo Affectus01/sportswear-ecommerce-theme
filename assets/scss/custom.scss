@@ -27,15 +27,19 @@ $navbar-dark-color: #FFF !default;
 
 $headings-font-family: zuume-extrabold-italic !default;
 $font-family-base: zuume-light-italic !default;
-$font-size-base: 1.765rem !default;
-$h1-font-size: $font-size-base * 2.80 !default;
-$h2-font-size: $font-size-base * 2.13 !default;
-$h3-font-size: $font-size-base * 1.80 !default;
-$h4-font-size: $font-size-base * 1.46 !default;
-$h5-font-size: $font-size-base * 1.13 !default;
+$font-size-base: 1.235rem !default;
+$h1-font-size: $font-size-base * 3.98 !default;
+$h2-font-size: $font-size-base * 3.04 !default;
+$h3-font-size: $font-size-base * 2.57 !default;
+$h4-font-size: $font-size-base * 2.09 !default;
+$h5-font-size: $font-size-base * 1.61 !default;
 $h6-font-size: $font-size-base !default;
 
 @import "../bootstrap/scss/bootstrap";
+
+.row {
+	margin: 0;
+}
 
 @font-face {
 	font-family: zuume-extrabold-italic;
@@ -55,16 +59,12 @@ p {
 	letter-spacing: 5px;
 }
 
-.row {
-	margin: 0;
-}
-
 .index-header {
 	background-image: url("./assets/images/1.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% auto;
-	background-position: -10px center;
-	height: auto;
+	background-position: center top;
+	height: 580px;
 }
 
 .navbar-desktop {
@@ -72,6 +72,10 @@ p {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+.navbar-mobile {
+	display: none;
 }
 
 .footer {
@@ -83,4 +87,29 @@ p {
 
 .footer-social-icons:hover {
 	opacity: 0.5;
+}
+
+/* xs: 0 */
+@media only screen and (max-width:576px) {
+
+}
+
+/* sm: 576px */
+@media only screen and (min-width:576px) and (max-width:768px) {
+
+}
+
+/* md: 768px */
+@media only screen and (min-width:768px) and (max-width:992px) {
+
+}
+
+/* lg: 992px */
+@media only screen and (min-width:922px) and (max-width:1200px) {
+
+}
+
+/* xl: 1200px */
+@media only screen and (min-width:1200px) {
+
 }
