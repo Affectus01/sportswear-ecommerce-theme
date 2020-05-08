@@ -55,6 +55,10 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 11px;
 }
 
+h5 {
+	font-family: zuume-light-italic;
+}
+
 
 p {
 	letter-spacing: 5px;
@@ -77,6 +81,11 @@ p {
 
 .navbar-mobile {
 	display: none;
+}
+
+.navbar {
+	font-family: zuume-extrabold-italic;
+	letter-spacing: 4px;
 }
 
 .footer {
