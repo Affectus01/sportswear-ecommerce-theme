@@ -58,7 +58,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: zuume-light-italic;
-  font-size: 1.765rem;
+  font-size: 1.235rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -363,31 +363,31 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 4.942rem;
+  font-size: 4.9153rem;
 }
 
 h2, .h2 {
-  font-size: 3.75945rem;
+  font-size: 3.7544rem;
 }
 
 h3, .h3 {
-  font-size: 3.177rem;
+  font-size: 3.17395rem;
 }
 
 h4, .h4 {
-  font-size: 2.5769rem;
+  font-size: 2.58115rem;
 }
 
 h5, .h5 {
-  font-size: 1.99445rem;
+  font-size: 1.98835rem;
 }
 
 h6, .h6 {
-  font-size: 1.765rem;
+  font-size: 1.235rem;
 }
 
 .lead {
-  font-size: 2.20625rem;
+  font-size: 1.54375rem;
   font-weight: 300;
 }
 
@@ -458,7 +458,7 @@ mark,
 
 .blockquote {
   margin-bottom: 1rem;
-  font-size: 2.20625rem;
+  font-size: 1.54375rem;
 }
 
 .blockquote-footer {
@@ -2027,7 +2027,7 @@ pre code {
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
   padding: 0.375rem 0.75rem;
-  font-size: 1.765rem;
+  font-size: 1.235rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -2088,14 +2088,14 @@ select.form-control:focus::-ms-value {
 .col-form-label-lg {
   padding-top: calc(0.5rem + 1px);
   padding-bottom: calc(0.5rem + 1px);
-  font-size: 2.20625rem;
+  font-size: 1.54375rem;
   line-height: 1.5;
 }
 
 .col-form-label-sm {
   padding-top: calc(0.25rem + 1px);
   padding-bottom: calc(0.25rem + 1px);
-  font-size: 1.544375rem;
+  font-size: 1.080625rem;
   line-height: 1.5;
 }
 
@@ -2104,7 +2104,7 @@ select.form-control:focus::-ms-value {
   width: 100%;
   padding: 0.375rem 0;
   margin-bottom: 0;
-  font-size: 1.765rem;
+  font-size: 1.235rem;
   line-height: 1.5;
   color: #212529;
   background-color: transparent;
@@ -2119,7 +2119,7 @@ select.form-control:focus::-ms-value {
 .form-control-sm {
   height: calc(1.5em + 0.5rem + 2px);
   padding: 0.25rem 0.5rem;
-  font-size: 1.544375rem;
+  font-size: 1.080625rem;
   line-height: 1.5;
   border-radius: 0.2rem;
 }
@@ -2127,7 +2127,7 @@ select.form-control:focus::-ms-value {
 .form-control-lg {
   height: calc(1.5em + 1rem + 2px);
   padding: 0.5rem 1rem;
-  font-size: 2.20625rem;
+  font-size: 1.54375rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
@@ -2209,7 +2209,7 @@ textarea.form-control {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: 0.1rem;
-  font-size: 1.544375rem;
+  font-size: 1.080625rem;
   line-height: 1.5;
   color: #fff;
   background-color: rgba(40, 167, 69, 0.9);
@@ -2301,7 +2301,7 @@ textarea.form-control {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: 0.1rem;
-  font-size: 1.544375rem;
+  font-size: 1.080625rem;
   line-height: 1.5;
   color: #fff;
   background-color: rgba(220, 53, 69, 0.9);
@@ -2445,7 +2445,7 @@ textarea.form-control {
   background-color: transparent;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
-  font-size: 1.765rem;
+  font-size: 1.235rem;
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3041,14 +3041,14 @@ fieldset:disabled a.btn {
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
-  font-size: 2.20625rem;
+  font-size: 1.54375rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
 
 .btn-sm, .btn-group-sm > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 1.544375rem;
+  font-size: 1.080625rem;
   line-height: 1.5;
   border-radius: 0.2rem;
 }
@@ -3129,7 +3129,7 @@ input[type=button].btn-block {
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
-  font-size: 1.765rem;
+  font-size: 1.235rem;
   color: #212529;
   text-align: left;
   list-style: none;
@@ -3317,7 +3317,7 @@ input[type=button].btn-block {
   display: block;
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
-  font-size: 1.544375rem;
+  font-size: 1.080625rem;
   color: #6c757d;
   white-space: nowrap;
 }
@@ -3530,7 +3530,7 @@ input[type=button].btn-block {
   align-items: center;
   padding: 0.375rem 0.75rem;
   margin-bottom: 0;
-  font-size: 1.765rem;
+  font-size: 1.235rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -3557,7 +3557,7 @@ input[type=button].btn-block {
 .input-group-lg > .input-group-prepend > .btn,
 .input-group-lg > .input-group-append > .btn {
   padding: 0.5rem 1rem;
-  font-size: 2.20625rem;
+  font-size: 1.54375rem;
   line-height: 1.5;
   border-radius: 0.3rem;
 }
@@ -3574,7 +3574,7 @@ input[type=button].btn-block {
 .input-group-sm > .input-group-prepend > .btn,
 .input-group-sm > .input-group-append > .btn {
   padding: 0.25rem 0.5rem;
-  font-size: 1.544375rem;
+  font-size: 1.080625rem;
   line-height: 1.5;
   border-radius: 0.2rem;
 }
@@ -3607,7 +3607,7 @@ input[type=button].btn-block {
 .custom-control {
   position: relative;
   display: block;
-  min-height: 2.6475rem;
+  min-height: 1.8525rem;
   padding-left: 1.5rem;
 }
 
@@ -3621,7 +3621,7 @@ input[type=button].btn-block {
   left: 0;
   z-index: -1;
   width: 1rem;
-  height: 1.82375rem;
+  height: 1.42625rem;
   opacity: 0;
 }
 .custom-control-input:checked ~ .custom-control-label::before {
@@ -3654,7 +3654,7 @@ input[type=button].btn-block {
 }
 .custom-control-label::before {
   position: absolute;
-  top: 0.82375rem;
+  top: 0.42625rem;
   left: -1.5rem;
   display: block;
   width: 1rem;
@@ -3666,7 +3666,7 @@ input[type=button].btn-block {
 }
 .custom-control-label::after {
   position: absolute;
-  top: 0.82375rem;
+  top: 0.42625rem;
   left: -1.5rem;
   display: block;
   width: 1rem;
@@ -3715,7 +3715,7 @@ input[type=button].btn-block {
   border-radius: 0.5rem;
 }
 .custom-switch .custom-control-label::after {
-  top: calc(0.82375rem + 2px);
+  top: calc(0.42625rem + 2px);
   left: calc(-2.25rem + 2px);
   width: calc(1rem - 4px);
   height: calc(1rem - 4px);
@@ -3741,7 +3741,7 @@ input[type=button].btn-block {
   width: 100%;
   height: calc(1.5em + 0.75rem + 2px);
   padding: 0.375rem 1.75rem 0.375rem 0.75rem;
-  font-size: 1.765rem;
+  font-size: 1.235rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -3782,7 +3782,7 @@ input[type=button].btn-block {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   padding-left: 0.5rem;
-  font-size: 1.544375rem;
+  font-size: 1.080625rem;
 }
 
 .custom-select-lg {
@@ -3790,7 +3790,7 @@ input[type=button].btn-block {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
-  font-size: 2.20625rem;
+  font-size: 1.54375rem;
 }
 
 .custom-file {
@@ -4097,10 +4097,10 @@ input[type=button].btn-block {
 }
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.1690625rem;
-  padding-bottom: 0.1690625rem;
+  padding-top: 0.2684375rem;
+  padding-bottom: 0.2684375rem;
   margin-right: 1rem;
-  font-size: 2.20625rem;
+  font-size: 1.54375rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -4138,7 +4138,7 @@ input[type=button].btn-block {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: 2.20625rem;
+  font-size: 1.54375rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
@@ -4730,7 +4730,7 @@ input[type=button].btn-block {
 
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
-  font-size: 2.20625rem;
+  font-size: 1.54375rem;
   line-height: 1.5;
 }
 .pagination-lg .page-item:first-child .page-link {
@@ -4744,7 +4744,7 @@ input[type=button].btn-block {
 
 .pagination-sm .page-link {
   padding: 0.25rem 0.5rem;
-  font-size: 1.544375rem;
+  font-size: 1.080625rem;
   line-height: 1.5;
 }
 .pagination-sm .page-item:first-child .page-link {
@@ -4957,7 +4957,7 @@ a.badge-white:focus, a.badge-white.focus {
 }
 
 .alert-dismissible {
-  padding-right: 5.1475rem;
+  padding-right: 4.3525rem;
 }
 .alert-dismissible .close {
   position: absolute;
@@ -5099,7 +5099,7 @@ a.badge-white:focus, a.badge-white.focus {
   display: flex;
   height: 1rem;
   overflow: hidden;
-  font-size: 1.32375rem;
+  font-size: 0.92625rem;
   background-color: #e9ecef;
   border-radius: 0.25rem;
 }
@@ -5474,7 +5474,7 @@ a.badge-white:focus, a.badge-white.focus {
 
 .close {
   float: right;
-  font-size: 2.6475rem;
+  font-size: 1.8525rem;
   font-weight: 700;
   line-height: 1;
   color: #000;
@@ -5750,7 +5750,7 @@ a.close.disabled {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 1.544375rem;
+  font-size: 1.080625rem;
   word-wrap: break-word;
   opacity: 0;
 }
@@ -5852,7 +5852,7 @@ a.close.disabled {
   word-spacing: normal;
   white-space: normal;
   line-break: auto;
-  font-size: 1.544375rem;
+  font-size: 1.080625rem;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: padding-box;
@@ -5961,7 +5961,7 @@ a.close.disabled {
 .popover-header {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
-  font-size: 1.765rem;
+  font-size: 1.235rem;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
   border-top-left-radius: calc(0.3rem - 1px);
@@ -11950,6 +11950,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.row {
+  margin: 0;
+}
+
 @font-face {
   font-family: zuume-extrabold-italic;
   src: url("./assets/fonts/zuume-fonts/Zuume-ExtraBoldItalic.otf");
@@ -11966,16 +11970,12 @@ p {
   letter-spacing: 5px;
 }
 
-.row {
-  margin: 0;
-}
-
 .index-header {
   background-image: url("./assets/images/1.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  background-position: -10px center;
-  height: auto;
+  background-position: center top;
+  height: 580px;
 }
 
 .navbar-desktop {
@@ -11983,6 +11983,10 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.navbar-mobile {
+  display: none;
 }
 
 .footer {
