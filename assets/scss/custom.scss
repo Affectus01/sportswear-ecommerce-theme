@@ -18,17 +18,37 @@ $spacers: map-merge(
 );
 
 $navbar-nav-link-padding-x: 2.5rem !default;
-$headings-font-family: "ZUUME EXTABOLD ITALIC", "Helvetica" !default;
-$font-family-base: "ZUUME ITALIC", "Helvetica" !default;
-$font-size-base: 1.235rem !default;
-$h1-font-size: $font-size-base * 2.62 !default;
-$h2-font-size: $font-size-base * 1.62 !default;
-$h3-font-size: $font-size-base * 1.52 !default;
-$h4-font-size: $font-size-base * 1.42 !default;
-$h5-font-size: $font-size-base * 1.32 !default;
+$navbar-dark-color: #FFF !default;
+
+$headings-font-family: zuume-extrabold-italic !default;
+$font-family-base: zuume-light-italic !default;
+$font-size-base: 1.765rem !default;
+$h1-font-size: $font-size-base * 2.80 !default;
+$h2-font-size: $font-size-base * 2.13 !default;
+$h3-font-size: $font-size-base * 1.80 !default;
+$h4-font-size: $font-size-base * 1.46 !default;
+$h5-font-size: $font-size-base * 1.13 !default;
 $h6-font-size: $font-size-base !default;
 
 @import "../bootstrap/scss/bootstrap";
+
+@font-face {
+	font-family: zuume-extrabold-italic;
+	src: url("./assets/fonts/zuume-fonts/Zuume-ExtraBoldItalic.otf");
+}
+
+@font-face {
+	font-family: zuume-light-italic;
+	src: url("./assets/fonts/zuume-fonts/Zuume-LightItalic.otf");
+}
+
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: 11px;
+}
+
+p {
+	letter-spacing: 5px;
+}
 
 .row {
 	margin: 0;
@@ -37,13 +57,9 @@ $h6-font-size: $font-size-base !default;
 .index-header {
 	background-image: url("./assets/images/1.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-position: bottom center;
-	height: 615px;
-}
-
-.header-logo-container {
-	top: 40px;
+	background-size: 100% auto;
+	background-position: -10px center;
+	height: auto;
 }
 
 .navbar-desktop {
@@ -58,5 +74,4 @@ $h6-font-size: $font-size-base !default;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	height: 400px;
 }
