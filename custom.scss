@@ -1,0 +1,125 @@
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+  (
+	 0: 0,
+	 1: ($spacer * .25),    //4px
+	 2: ($spacer * .5),     //8px
+	 3: $spacer,            //16px
+	 4: ($spacer * 1.5),    //24px
+	 5: ($spacer * 3),      //48px
+	 6: ($spacer * 4),      //64px
+	 7: ($spacer * 5),      //80px
+	 8: ($spacer * 6.25),   //100px
+	 9: ($spacer * 7.5),    //120px
+	 10: ($spacer * 9.375)  //150px
+  ),
+  $spacers
+);
+
+$theme-colors: (
+	"black": #000,
+	"white": #FFF
+);
+
+$navbar-nav-link-padding-x: 2.5rem !default;
+$navbar-dark-color: #FFF !default;
+
+$headings-font-family: zuume-extrabold-italic !default;
+$font-family-base: zuume-light-italic !default;
+$font-size-base: 1.235rem !default;
+$h1-font-size: $font-size-base * 3.98 !default;
+$h2-font-size: $font-size-base * 3.04 !default;
+$h3-font-size: $font-size-base * 2.57 !default;
+$h4-font-size: $font-size-base * 2.09 !default;
+$h5-font-size: $font-size-base * 1.61 !default;
+$h6-font-size: $font-size-base !default;
+
+@import "../bootstrap/scss/bootstrap";
+
+.row {
+	margin: 0;
+}
+
+@font-face {
+	font-family: zuume-extrabold-italic;
+	src: url("./assets/fonts/zuume-fonts/Zuume-ExtraBoldItalic.otf");
+}
+
+@font-face {
+	font-family: zuume-light-italic;
+	src: url("./assets/fonts/zuume-fonts/Zuume-LightItalic.otf");
+}
+
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: 11px;
+}
+
+h5 {
+	font-family: zuume-light-italic;
+}
+
+
+p {
+	letter-spacing: 5px;
+}
+
+.index-header {
+	background-image: url("./assets/images/HeaderBackground.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 550px;
+}
+
+.navbar-desktop {
+	background-image: url("./assets/images/2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.navbar-mobile {
+	display: none;
+}
+
+.navbar {
+	font-family: zuume-extrabold-italic;
+	letter-spacing: 4px;
+}
+
+.footer {
+	background-image: url("./assets/images/13.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.footer-social-icons:hover {
+	opacity: 0.5;
+}
+
+/* xs: 0 */
+@media only screen and (max-width:576px) {
+
+}
+
+/* sm: 576px */
+@media only screen and (min-width:576px) and (max-width:768px) {
+
+}
+
+/* md: 768px */
+@media only screen and (min-width:768px) and (max-width:992px) {
+
+}
+
+/* lg: 992px */
+@media only screen and (min-width:922px) and (max-width:1200px) {
+
+}
+
+/* xl: 1200px */
+@media only screen and (min-width:1200px) {
+
+}
