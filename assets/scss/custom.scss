@@ -130,6 +130,7 @@ p {
 
 .header.info {
 	width: 700px !important;
+	top: 60px;
 
 }
 .header.info h1 {
@@ -144,11 +145,15 @@ p {
 .col-12.col-lg-4.header-logo-container.px-0{
     float: left !important;
     width: auto !important;
-    margin-right: 30% !important;
     position: relative;
     top: 38px !important;
     align-content: center;
     float: none !important;
+    margin-left:0 !important;
+}
+
+.ml-auto, .mx-auto {
+	margin: 0 auto;
 }
 
 .col-12.col-lg-8.text-white.pb-8.px-0{
