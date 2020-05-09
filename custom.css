@@ -13984,7 +13984,7 @@ body {
 /* xs: 0 */
 /* sm: 576px */
 /* lg: 992px */
-@media only screen and (min-width: 300px) and (max-width: 1200px) {
+@media only screen and (min-width: 300px) and (max-width: 980px) {
   /* line 129, ../../../../../../MacBackup 2/2020/Bootstrap Templates/Sportswear E-Commerce Theme/sportswear-ecommerce-theme/assets/scss/custom.scss */
   .index-header {
     background-image: url(./assets/images/HeaderBackground.png);
