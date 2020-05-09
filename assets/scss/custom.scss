@@ -215,20 +215,22 @@ footer .col-md-2 {
     max-width: 80%;
     margin: 0 auto;
 }
-footer .col-md-4 {
+footer .col-md-3.footer2 {
     flex: 0 0 60%;
     max-width: 60%;
-}
-footer .col-md-3 {
-    flex: 0 0 40%;
-    max-width: 40%;
-}
-footer .col-md-4 {
-    flex: 0 0 55%;
-    max-width: 50.5%;
-    float: right;
+    float:right;
     text-align: right;
 }
+footer .col-md-3 {
+    flex: 0 0 35%;
+    max-width: 35%;
+}
+footer .col-md-3.px-2.footer3 {
+    flex: 0 0 80%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 img.m-auto.d-block[title~="Sportwear"]{
 	position:relative;
 	bottom:5%
@@ -238,9 +240,10 @@ img.m-auto.d-block[title~="Sportwear"]{
 	margin-top: 10px;
 	border-top: 1px solid #ffffff;
 }
-.col-12.col-md-2.px-2.footer3 h6{
+.col-12.col-md-3.px-2.footer3 h6{
 	font-size: 2.235rem;
 	margin-top: 30px;
+	text-align: center;
 }
 img.float-left.px-1.footer-social-icons{
 	float:none !important;
