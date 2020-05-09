@@ -74,6 +74,10 @@ body {
 	height: 550px;
 }
 
+.index-subheading {
+	line-height: 0;
+}
+
 .navbar-desktop {
 	background-image: url("./assets/images/2.jpg");
 	background-repeat: no-repeat;
@@ -125,7 +129,6 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: auto;
 }
 
 .header.info {
