@@ -14085,44 +14085,46 @@ body {
     margin: 0 auto;
   }
   /* line 218, ../../../../../../MacBackup 2/2020/Bootstrap Templates/Sportswear E-Commerce Theme/sportswear-ecommerce-theme/assets/scss/custom.scss */
-  footer .col-md-4 {
+  footer .col-md-3.footer2 {
     flex: 0 0 60%;
     max-width: 60%;
-  }
-  /* line 222, ../../../../../../MacBackup 2/2020/Bootstrap Templates/Sportswear E-Commerce Theme/sportswear-ecommerce-theme/assets/scss/custom.scss */
-  footer .col-md-3 {
-    flex: 0 0 40%;
-    max-width: 40%;
-  }
-  /* line 226, ../../../../../../MacBackup 2/2020/Bootstrap Templates/Sportswear E-Commerce Theme/sportswear-ecommerce-theme/assets/scss/custom.scss */
-  footer .col-md-4 {
-    flex: 0 0 55%;
-    max-width: 50.5%;
     float: right;
     text-align: right;
   }
-  /* line 232, ../../../../../../MacBackup 2/2020/Bootstrap Templates/Sportswear E-Commerce Theme/sportswear-ecommerce-theme/assets/scss/custom.scss */
+  /* line 224, ../../../../../../MacBackup 2/2020/Bootstrap Templates/Sportswear E-Commerce Theme/sportswear-ecommerce-theme/assets/scss/custom.scss */
+  footer .col-md-3 {
+    flex: 0 0 35%;
+    max-width: 35%;
+  }
+  /* line 228, ../../../../../../MacBackup 2/2020/Bootstrap Templates/Sportswear E-Commerce Theme/sportswear-ecommerce-theme/assets/scss/custom.scss */
+  footer .col-md-3.px-2.footer3 {
+    flex: 0 0 80%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  /* line 234, ../../../../../../MacBackup 2/2020/Bootstrap Templates/Sportswear E-Commerce Theme/sportswear-ecommerce-theme/assets/scss/custom.scss */
   img.m-auto.d-block[title~="Sportwear"] {
     position: relative;
     bottom: 5%;
   }
-  /* line 236, ../../../../../../MacBackup 2/2020/Bootstrap Templates/Sportswear E-Commerce Theme/sportswear-ecommerce-theme/assets/scss/custom.scss */
+  /* line 238, ../../../../../../MacBackup 2/2020/Bootstrap Templates/Sportswear E-Commerce Theme/sportswear-ecommerce-theme/assets/scss/custom.scss */
   .col-12.col-md-2.px-2.footer3 {
     text-align: center;
     margin-top: 10px;
     border-top: 1px solid #ffffff;
   }
-  /* line 241, ../../../../../../MacBackup 2/2020/Bootstrap Templates/Sportswear E-Commerce Theme/sportswear-ecommerce-theme/assets/scss/custom.scss */
-  .col-12.col-md-2.px-2.footer3 h6 {
+  /* line 243, ../../../../../../MacBackup 2/2020/Bootstrap Templates/Sportswear E-Commerce Theme/sportswear-ecommerce-theme/assets/scss/custom.scss */
+  .col-12.col-md-3.px-2.footer3 h6 {
     font-size: 2.235rem;
     margin-top: 30px;
+    text-align: center;
   }
-  /* line 245, ../../../../../../MacBackup 2/2020/Bootstrap Templates/Sportswear E-Commerce Theme/sportswear-ecommerce-theme/assets/scss/custom.scss */
+  /* line 248, ../../../../../../MacBackup 2/2020/Bootstrap Templates/Sportswear E-Commerce Theme/sportswear-ecommerce-theme/assets/scss/custom.scss */
   img.float-left.px-1.footer-social-icons {
     float: none !important;
     width: 50px !important;
   }
-  /* line 249, ../../../../../../MacBackup 2/2020/Bootstrap Templates/Sportswear E-Commerce Theme/sportswear-ecommerce-theme/assets/scss/custom.scss */
+  /* line 252, ../../../../../../MacBackup 2/2020/Bootstrap Templates/Sportswear E-Commerce Theme/sportswear-ecommerce-theme/assets/scss/custom.scss */
   footer .input-group {
     position: relative;
     display: flex;
