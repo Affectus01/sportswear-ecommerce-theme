@@ -25,7 +25,7 @@ $theme-colors: (
 $navbar-nav-link-padding-x: 2.5rem !default;
 $navbar-dark-color: #FFF !default;
 
-$headings-font-family: zuume-extrabold-italic !default;
+$headings-font-family: zuume-light-italic !default;
 $font-family-base: zuume-light-italic !default;
 $font-size-base: 1.235rem !default;
 $h1-font-size: $font-size-base * 3.98 !default;
@@ -34,6 +34,7 @@ $h3-font-size: $font-size-base * 2.57 !default;
 $h4-font-size: $font-size-base * 2.09 !default;
 $h5-font-size: $font-size-base * 1.61 !default;
 $h6-font-size: $font-size-base !default;
+$font-weight-bolder: 1000 !default;
 
 @import "../bootstrap/scss/bootstrap";
 
@@ -55,18 +56,12 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 7px;
 }
 
-h5 {
-	font-family: zuume-light-italic;
-        font-size: 1.2em;
-}
-
-
 p {
 	letter-spacing: 5px;
 }
 
 body {
-	background-image: url(https://github.com/Affectus01/sportswear-ecommerce-theme/blob/master/assets/images/polygonBG.jpg?raw=true);
+	background-image: url(./assets/images/polygonBG.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -84,6 +79,8 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	font-family: zuume-extrabold-italic;
+	font-size: 1.5em;
 }
 
 .navbar-mobile {
@@ -91,14 +88,11 @@ body {
 }
 
 .navbar {
-	font-family: zuume-extrabold-italic;
 	letter-spacing: 4px;
-	font-size: 1.5em;
 }
 
-.footer .navbar {
-    font-family: zuume-light-italic;
-    font-size: 1.235rem;
+h1 {
+	font-family: zuume-extrabold-italic;
 }
 
 .footer {
@@ -137,7 +131,6 @@ body {
 .header.info {
 	width: 700px !important;
 	top: 60px;
-
 }
 .header.info h1 {
 	font-size: 3.9rem;
