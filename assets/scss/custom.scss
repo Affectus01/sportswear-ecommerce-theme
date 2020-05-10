@@ -111,60 +111,30 @@ h1 {
 }
 
 /* xs: 0 */
-@media only screen and (max-width:0px) {
+@media only screen and (max-width:576px) {
 
 }
 
 /* sm: 576px */
-@media only screen and (min-width:0px) and (max-width:0px) {
+@media only screen and (min-width:576px) and (max-width:768px) {
 
 }
 
+/* md: 768px */
+@media only screen and (min-width:768px) and (max-width:992px) {
+
+}
+
+/* lg: 992px */
+@media only screen and (min-width:992px) and (max-width:1200px) {
+
+}
 
 /* lg: 992px */
 @media only screen and (min-width:300px) and (max-width:980px) {
 
 .index-header {
     background-image: url(./assets/images/HeaderBackground.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.header.info {
-	width: 700px !important;
-	top: 60px;
-}
-.header.info h1 {
-	font-size: 3.9rem;
-}
-.header.info h5 {
-    font-family: zuume-light-italic;
-    font-size: 2.2rem;
-    bottom: -1px !important;
-}
-
-.col-12.col-lg-4.header-logo-container.px-0{
-    float: left !important;
-    width: auto !important;
-    position: relative;
-    top: 38px !important;
-    align-content: center;
-    float: none !important;
-    margin-left:0 !important;
-}
-
-.ml-auto, .mx-auto {
-	margin: 0 auto;
-}
-
-.col-12.col-lg-8.text-white.pb-8.px-0{
-    float: none !important;
-    position: relative !important;
-    top: .75em !important;
-    width: 100% !important;
-    text-align: center !important;
-    margin: 0 auto !important;
 }
 
 ul.navbar-nav {
