@@ -547,6 +547,9 @@ pre code {
   .container {
     max-width: 540px;
   }
+  .footer-logo-section img.m-auto {
+	background: url(./assets/images/14.png) !important;	
+	}
 }
 @media (min-width: 768px) {
   .container {
