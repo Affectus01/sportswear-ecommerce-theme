@@ -18,8 +18,15 @@ $spacers: map-merge(
 );
 
 $theme-colors: (
-	"black": #000,
-	"white": #FFF
+	"primary": #FFF,
+	"secondary": #000,
+	"success": #00C000,
+	"danger": #D40000,
+	"info": #BCFF00,
+	"warning": #FFDD00,
+	"gray": #6c757d,
+	"light": #F2F2F2,
+	"dark": #181A1B,
 );
 
 $navbar-nav-link-padding-x: 2.5rem !default;
