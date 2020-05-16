@@ -40,8 +40,12 @@
 				</ul>
 			</nav>
 
-			<nav class="navbar-mobile navbar navbar-expand-lg navbar-dark text-white justify-content-center sticky-top">
-				<center><lottie-player src="https://assets4.lottiefiles.com/packages/lf20_cwjG6q.json"  background="white"  speed="1"  style="width: 50px; height: 50px;" hover   ></lottie-player></center>
+			<nav class="navbar-mobile navbar navbar-expand-lg navbar-dark text-white text-center justify-content-center sticky-top">
+				<a id="hamburger-menu" class="p-1 d-inline-block mt-2" href="#" onclick="hamburgerMenu()">
+					<span class="menu-item bg-white d-block"></span>
+					<span class="menu-item bg-white d-block"></span>
+					<span class="menu-item m-0 bg-white d-block"></span>
+				</a>
 				<div id="mobileNav" class="navbar-nav w-100 text-center">
 					<a class="nav-link" href="#">Home</a>
 					<a class="nav-link" href="#">Men</a>
@@ -108,7 +112,7 @@
 		</div>
 
 		<footer class="footer row border-top border-secondary pt-0 pb-5 pt-lg-5 text-white">
-			<div class="footer-logo-section col-12 col-sm-5 col-lg-3 px-2">
+			<div class="footer-logo-section col-12 col-sm-5 col-lg-3 p-2">
 				<img class="m-auto d-block img-fluid" src="./assets/images/14-2.png" alt="Sportwear Logo" title="Sportwear"/>
 			</div>
 
