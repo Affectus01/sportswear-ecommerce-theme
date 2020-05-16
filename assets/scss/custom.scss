@@ -18,8 +18,15 @@ $spacers: map-merge(
 );
 
 $theme-colors: (
-	"black": #000,
-	"white": #FFF
+	"primary": #FFF,
+	"secondary": #000,
+	"success": #00C000,
+	"danger": #D40000,
+	"info": #BCFF00,
+	"warning": #FFDD00,
+	"gray": #6c757d,
+	"light": #F2F2F2,
+	"dark": #181A1B,
 );
 
 $navbar-nav-link-padding-x: 2.5rem !default;
@@ -38,10 +45,6 @@ $h6-font-size: $font-size-base !default;
 $font-weight-bolder: 1000 !default;
 
 @import "../bootstrap/scss/bootstrap";
-
-#burger_2 > g > path {
-	fill: #FFF;
-}
 
 .row {
 	margin: 0;
@@ -95,8 +98,8 @@ body {
 
 .navbar-mobile {
 	background-image: url("./assets/images/2.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-repeat: repeat-y;
+	background-size: contain;
 	background-position: center;
 	font-family: zuume-extrabold-italic;
 	font-size: 1.5em;
@@ -105,13 +108,39 @@ body {
 }
 
 #mobileNav {
-	background-image: url("./assets/images/2.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 	height: 0;
 	overflow: hidden;
 	z-index: 1;
+	transition: all 0.3s ease-in-out;
+}
+
+#hamburger-menu {
+  	transition: all 0.3s ease-in-out;
+}
+
+.menu-item {
+    height: 3px;
+    margin: 0 0 10px;
+    transition: all 0.3s ease-in-out;
+    width: 40px;
+}
+
+.toggle-hamburger-menu {
+	.menu-item {
+		margin: 0 0 5px;
+
+	  &:first-child {
+		transform: rotate(45deg);
+		transform-origin: 10px;
+	  }
+	  &:nth-child(2) {
+		opacity: 0;
+	  }
+	  &:nth-child(3) {
+		transform: rotate(-45deg);
+		transform-origin: 8px;
+	  }
+	}
 }
 
 h1 {
@@ -183,6 +212,10 @@ h1 {
 		width: 49%;
 	}
 
+	.footer-logo-section > img {
+		max-width: 50%;
+	}
+
 	.footer-nav-section {
 		display: none;
 	}
@@ -232,6 +265,10 @@ h1 {
 
 	.small-product-image {
 		width: 49%;
+	}
+
+	.footer-logo-section > img {
+		max-width: 50%;
 	}
 
 	.footer-nav-section {

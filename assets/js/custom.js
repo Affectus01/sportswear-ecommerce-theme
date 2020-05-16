@@ -1,8 +1,8 @@
-document.getElementById("mobileMenu").addEventListener("click", function(){
-  document.getElementById("mobileMenu").load = true;
-  document.getElementById("mobileMenu").play = true;
-  toggleNav();
-});
+function hamburgerMenu() {
+	var menu = document.getElementById("hamburger-menu");
+	menu.classList.toggle("toggle-hamburger-menu");
+	toggleNav();
+}
 
 function toggleNav() {
 	var navSize = document.getElementById("mobileNav").style.height;

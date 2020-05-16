@@ -15,13 +15,13 @@
 
 	<body class="positon-relative">
 		<div class="container-fluid w-100 min-vh-100 m-0 p-0">
-			<div class="index-header row border-bottom border-secondary align-items-end justify-content-center">
+			<div class="index-header row border-bottom border-gray align-items-end justify-content-center">
 				<div class="col-lg-8 position-relative my-4 my-lg-9">
 					<div class="row">
 						<div class="col-12 col-lg-4 px-0">
 							<img class="header-logo position-relative m-auto m-lg-0 ml-lg-auto d-block" src="./assets/images/14.png" alt="Sportwear Logo" title="Sportwear" width="160px"/>
 						</div>
-						<div class="col-12 col-lg-8 text-white mt-3 px-0 float-left position-relative">
+						<div class="col-12 col-lg-8 text-primary mt-3 px-0 float-left position-relative">
 							<h1 class="index-heading m-0 p-0 font-weight-bolder">Sportswear</h1>
 							<h5 class="index-subheading word-wrap m-0 p-0 position-relative font-weight-light">Great Quality For Your Lifestyle</h5>
 						</div>
@@ -29,7 +29,7 @@
 				</div>
 			</div>
 			
-			<nav class="navbar-desktop navbar navbar-expand navbar-dark text-white justify-content-center bg-secondary">
+			<nav class="navbar-desktop navbar navbar-expand navbar-dark text-primary justify-content-center bg-gray">
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="mensClothes.html">Men</a></li>
@@ -40,8 +40,12 @@
 				</ul>
 			</nav>
 
-			<nav class="navbar-mobile navbar navbar-expand-lg navbar-dark text-white justify-content-center sticky-top">
-				<center><lottie-player src="https://assets4.lottiefiles.com/packages/lf20_cwjG6q.json"  background="white"  speed="1"  style="width: 50px; height: 50px;" hover   ></lottie-player></center>
+			<nav class="navbar-mobile navbar navbar-expand-lg navbar-dark text-primary text-center justify-content-center sticky-top">
+				<a id="hamburger-menu" class="p-1 d-inline-block mt-2" href="#" onclick="hamburgerMenu()">
+					<span class="menu-item bg-primary d-block"></span>
+					<span class="menu-item bg-primary d-block"></span>
+					<span class="menu-item m-0 bg-primary d-block"></span>
+				</a>
 				<div id="mobileNav" class="navbar-nav w-100 text-center">
 					<a class="nav-link" href="#">Home</a>
 					<a class="nav-link" href="#">Men</a>
@@ -107,8 +111,8 @@
 			</div>
 		</div>
 
-		<footer class="footer row border-top border-secondary pt-0 pb-5 pt-lg-5 text-white">
-			<div class="footer-logo-section col-12 col-sm-5 col-lg-3 px-2">
+		<footer class="footer row border-top border-gray pt-0 pb-5 pt-lg-5 text-primary">
+			<div class="footer-logo-section col-12 col-sm-5 col-lg-3 p-2">
 				<img class="m-auto d-block img-fluid" src="./assets/images/14-2.png" alt="Sportwear Logo" title="Sportwear"/>
 			</div>
 
@@ -133,15 +137,15 @@
 			</div>
 
 			<div class="footer-seperator-section col-10 mb-2 mx-auto">
-				<hr class="bg-secondary">
+				<hr class="bg-gray">
 			</div>
 
 			<div class="footer-contact-section col-8 col-lg-3 px-2 mx-auto mx-lg-0 text-center text-lg-left">
 				<h6 class="font-weight-bolder">Email Signup</h6>
 				<div class="input-group">
-					<input class="form-control bg-black rounded-0" type="email" id="signupEmail" placeholder="Email" aria-describedby="signupEmailButton" />
+					<input class="form-control bg-secondary rounded-0" type="email" id="signupEmail" placeholder="Email" aria-describedby="signupEmailButton" />
 					<div class="input-group-append">
-						<button class="btn btn-outline-light border-left-0 bg-black rounded-0" type="button" id="signupEmailButton">GO</button>
+						<button class="btn btn-outline-light border-left-0 bg-secondary rounded-0" type="button" id="signupEmailButton">GO</button>
 					</div>
 				</div>
 				<div class="py-3">
