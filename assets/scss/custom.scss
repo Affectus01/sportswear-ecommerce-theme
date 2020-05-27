@@ -44,7 +44,7 @@ $h5-font-size: $font-size-base * 1.22 !default;
 $h6-font-size: $font-size-base !default;
 $font-weight-bolder: 1000 !default;
 
-@import "../bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 .row {
 	margin: 0;
