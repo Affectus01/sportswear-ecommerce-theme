@@ -35,13 +35,13 @@ $navbar-dark-color: #FFF !default;
 $headings-font-family: zuume-light-italic !default;
 $headings-line-height: 1.0 !default;
 $font-family-base: zuume-light-italic !default;
-$font-size-base: 1.235rem !default;
-$h1-font-size: $font-size-base * 3.98 !default;
-$h2-font-size: $font-size-base * 3.04 !default;
-$h3-font-size: $font-size-base * 2.57 !default;
-$h4-font-size: $font-size-base * 2.09 !default;
-$h5-font-size: $font-size-base * 1.22 !default;
-$h6-font-size: $font-size-base !default;
+$font-size-base: 1.235rem !default;					//19.76px
+$h1-font-size: $font-size-base * 3.98 !default;		//78.64px
+$h2-font-size: $font-size-base * 3.04 !default;		//60.07px
+$h3-font-size: $font-size-base * 2.57 !default;		//50.78px
+$h4-font-size: $font-size-base * 2.09 !default;		//41.29px
+$h5-font-size: $font-size-base * 1.22 !default;		//24.10px
+$h6-font-size: $font-size-base !default;			//19.76px
 $font-weight-bolder: 1000 !default;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -166,6 +166,32 @@ h1 {
 
 .footer-social-icons:hover {
 	opacity: 0.5;
+}
+
+.listing-item-image {
+	width: 80%;
+	transition: 0.3s ease-in-out;
+}
+
+.listing-item-heading {
+	font-size: 34px;
+}
+
+.listing-item-button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease-in-out;
+  opacity: 0; 
+}
+
+.listing-item-container:hover {
+	.listing-item-button {
+		opacity: 1;
+	}
+	.listing-item-image {
+		opacity: 0.5;
+	}
 }
 
 /* xs: 0 */

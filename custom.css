@@ -11964,6 +11964,30 @@ h1 {
   opacity: 0.5;
 }
 
+.listing-item-image {
+  width: 80%;
+  transition: 0.3s ease-in-out;
+}
+
+.listing-item-heading {
+  font-size: 34px;
+}
+
+.listing-item-button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.listing-item-container:hover .listing-item-button {
+  opacity: 1;
+}
+.listing-item-container:hover .listing-item-image {
+  opacity: 0.5;
+}
+
 /* xs: 0 */
 @media only screen and (max-width: 576px) {
   .index-header {
