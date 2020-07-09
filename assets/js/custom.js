@@ -20,3 +20,7 @@ function openNav() {
 function closeNav() {
 	document.getElementById("mobileNav").style.height = "0";
 }
+
+setTimeout(function() {
+   $(".listing-item-button-cover, .listing-item-button, .listing-item-button-text").addClass("is-animated");
+}, 500);
